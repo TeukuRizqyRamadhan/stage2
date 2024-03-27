@@ -28,3 +28,24 @@ model Post {
   author    User    @relation(fields: [authorId], references: [id])
   authorId  Int
 }
+
+// ---------------------------------------------------------------
+
+model Person {
+  id         Int      @id @default(autoincrement())
+  email      String   @unique
+  name       String
+  password   String
+  role       String
+  created_at DateTime
+  partai     Partai[]
+}
+
+model Partai {
+  id         Int      @id @default(autoincrement())
+  namePartai String
+  logo       String
+  leader     Person   @relation(fields: [leaderID], references: [id])
+  leaderID   Int
+  created_at DateTime
+}
