@@ -1,4 +1,5 @@
-[
+{
+  "card": [
     {
         "id": 1,
         "imageSrc": "https://i.ibb.co/QcH4RZ2/card1.png",
@@ -19,4 +20,5 @@
         "imageSrc": "https://i.ibb.co/9vSgyT7/card4.png",
         "title": "App of the day"
     }
-]
+  ]
+}
