@@ -1,6 +1,4 @@
-// import React from 'react'
-import { Testi } from "../atom/cardTestimonial"
-
+import { TestiProvider } from "../context/testimoni/TestimoniProvider";
 import CardTestimonial from "../atom/cardTestimonial"
 
 const Testimonial = () => {
@@ -12,9 +10,9 @@ const Testimonial = () => {
 
             <div className="flex flex-wrap justify-center mt-5 gap-6">
                 <div className="flex flex-wrap justify-center mt-10 gap-6">
-                    <CardTestimonial testi={Testi} name="Ilham Fathullah" />
-                    <CardTestimonial testi={Testi} name="Hilal Akbar" />
-                    <CardTestimonial testi={Testi} name="Hizamrul Jaen" />
+                    <TestiProvider>
+                        <CardTestimonial />
+                    </TestiProvider>
                 </div>
             </div>
 

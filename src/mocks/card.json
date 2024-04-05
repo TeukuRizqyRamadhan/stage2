@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "imageSrc": "https://i.ibb.co/QcH4RZ2/card1.png",
+        "title": "100% Secured Data"
+    },
+    {
+        "id": 2,
+        "imageSrc": "https://i.ibb.co/tmN5rhz/card2.png",
+        "title": "Trusted by users"
+    },
+    {
+        "id": 3,
+        "imageSrc": "https://i.ibb.co/nBb8DKP/card3.png",
+        "title": "Easy to use"
+    },
+    {
+        "id": 4,
+        "imageSrc": "https://i.ibb.co/9vSgyT7/card4.png",
+        "title": "App of the day"
+    }
+]
