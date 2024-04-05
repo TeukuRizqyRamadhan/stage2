@@ -1,0 +1,67 @@
+[
+    {
+        "id": 1,
+        "date": "05",
+        "day": "Friday",
+        "month": "August",
+        "year": "2022",
+        "total": "-206,000",
+        "transactions": [
+            {
+                "id": 1,
+                "image": "https://i.ibb.co/JR81sJq/family.png",
+                "category": "Family",
+                "note": "Jajan malam minggu",
+                "amount": "278,000"
+            },
+            {
+                "id": 2,
+                "image": "https://i.ibb.co/qyBj6JF/fnb.png",
+                "category": "Food and Beverages",
+                "note": "Ayam geprek mak cik",
+                "amount": "28,000"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "date": "04",
+        "day": "Thrusday",
+        "month": "August",
+        "year": "2022",
+        "total": "-16,000",
+        "transactions": [
+            {
+                "id": 1,
+                "image": "https://i.ibb.co/qyBj6JF/fnb.png",
+                "category": "Food and Beverages",
+                "note": "Bakso cuanki",
+                "amount": "16,000"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "date": "03",
+        "day": "Wednesday",
+        "month": "August",
+        "year": "2022",
+        "total": "4,984,000",
+        "transactions": [
+            {
+                "id": 1,
+                "image": "https://i.ibb.co/qyBj6JF/fnb.png",
+                "category": "Food and Beverages",
+                "note": "Bakso cuanki",
+                "amount": "16,000"
+            },
+            {
+                "id": 2,
+                "image": "https://i.ibb.co/kXrXPCS/salary.png",
+                "category": "Salary",
+                "note": "Gaji bulan juli",
+                "amount": "5,000,000"
+            }
+        ]
+    }
+]

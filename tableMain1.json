@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "cash": "Rp. 8,890,000.00",
+        "image": "https://i.ibb.co/hsH9SMk/inflow.png",
+        "title": "Inflow"
+    },
+    {
+        "id": 2,
+        "cash": "Rp. 8,890,000.00",
+        "image": "https://i.ibb.co/4fFLNd3/outflow.png",
+        "title": "Outflow"
+    },
+    {
+        "id": 3,
+        "cash": "Rp. 8,890,000.00",
+        "image": "https://i.ibb.co/hsH9SMk/inflow.png",
+        "title": "Balance"
+    }
+]
