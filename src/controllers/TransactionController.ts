@@ -15,4 +15,15 @@ export default new class TransactionController {
     findByUserId(req: Request, res: Response) {
         TransactionService.findByUserId(req, res)
     }
+    findLastMonthTransaction(req: Request, res: Response) {
+        TransactionService.findLastMonthTransaction(req, res)
+    }
+
+    findThisMonthTransaction(req: Request, res: Response) {
+        TransactionService.findThisMonthTransaction(req, res)
+    }
+
+    findFutureTransaction(req: Request, res: Response) {
+        TransactionService.findFutureTransaction(req, res)
+    }
 }

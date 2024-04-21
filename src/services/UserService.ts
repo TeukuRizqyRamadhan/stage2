@@ -25,11 +25,21 @@ export default new class UserService {
                     email: body.email,
                     password: hashPassword,
                     fullName: body.fullName,
+                    role: "user",
                     createdAt: new Date()
                 }
             })
 
-            return res.status(201).json(User)
+            const userWallet = await prisma.wallet.create({
+                data: {
+                    userId: User.id,
+                    inFlow: 0,
+                    outFlow: 0,
+                    balance: 0
+                }
+            });
+
+            return res.status(201).json({ User, userWallet });
         } catch (error) {
             return res.status(500).json(error)
         }
@@ -48,7 +58,8 @@ export default new class UserService {
             if (!isMatchPassword) return res.status(409).json({ message: "Incorrect Password!" })
 
             const tokenPayload = {
-                id: isMailRegisted.id
+                id: isMailRegisted.id,
+                role: isMailRegisted.role
             }
 
             const token = jwt.sign({ tokenPayload }, 'SECRET_KEY', { expiresIn: 99999 })
